@@ -6,7 +6,7 @@ import { RiCloseFill, RiMenu3Fill } from "react-icons/ri";
 function Navbar() {
     const [open, setOpen] = React.useState(false);
     return (
-        <nav className='sticky top-0 bg-green-400 text-white py-3'>
+        <nav className='sticky top-0 bg-green-400 text-white py-3 z-100'>
             <main className='relative px-5 md:px-10 max-w-[1200px] mx-auto  flex justify-between items-center'>
                 <div>
                     <Logo />

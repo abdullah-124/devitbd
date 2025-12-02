@@ -9,7 +9,7 @@ const exo_font = Exo_2({
 
 
 export const metadata = {
-  title: "Devit BD",
+  title: "DevIT BD",
   description: "Software Development Company",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${exo_font.variable} antialiased `}
+        className={`${exo_font.className} antialiased `}
       >
         <Navbar />
 

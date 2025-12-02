@@ -12,7 +12,7 @@ export default function Service_card({ service }) {
     };
     const Icon = iconMap[service.icon];
     return (
-        <div className='border border-green-400 hover:border-green-700 p-5 rounded-md transition-all duration-500 flex-1'>
+        <div className='embla__slide border border-green-400 hover:border-green-700 p-5 rounded-md transition-all duration-700'>
             <div className='text-2xl border text-green-400 inline-block p-1 rounded-full'>
                 <Icon />
             </div>

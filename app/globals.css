@@ -21,8 +21,38 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
-.btn{
+
+.btn {
   @apply bg-green-400 text-white font-bold py-2 px-4 rounded;
 }
+
+/* css for carousel  */
+.embla {
+  /* max-width: 28rem; */
+  /* border: 1px solid #ccc; */
+  margin: auto;
+  /* --slide-height: 19rem; */
+  --slide-spacing: 1rem;
+  --slide-size: 70%;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  gap: 0 var(--slide-spacing);
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size);
+  max-width: 400px;
+  margin: 0 3px;
+}
+

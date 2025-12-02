@@ -49,7 +49,7 @@ const developmentApproach = [
 
 export default function Approch() {
     return (
-        <main className='px-5 md:px-10 py-5'>
+        <main className='py-10'>
             <section>
                 <header className='mb-10 max-w-[400px] mx-auto'>
                     <h3 className='text-2xl text-center text-green-400 font-bold'>Our design and

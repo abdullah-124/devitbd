@@ -27,7 +27,7 @@ export default function TechStack() {
                 </div>
             </header>
             {/* result of filtering  */}
-            <section className='flex flex-wrap lg:w-1/2 md:w-2/3 w-full mx-auto justify-center gap-5'>
+            <section className='min-h-[200px] flex flex-wrap lg:w-1/2 md:w-2/3 w-full mx-auto justify-center items-start gap-5'>
                 {tech_stack.map((item) => (
                     <div key={item.name} className="flex justify-center items-center gap-5">
                         <item.icon className="text-5xl" style={{ color: item.color }} />

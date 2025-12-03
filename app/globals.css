@@ -11,23 +11,43 @@
   --font-exo: var(--exo_font);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   @apply text-gray-900;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
-
+.container{
+  @apply max-w-[1200px] mx-auto px-5 md:px-10
+}
+.link{
+  @apply cursor-pointer hover:underline transition-all duration-500
+}
+.active{
+  @apply underline font-bold
+}
 .btn {
   @apply bg-green-400 text-white font-bold py-2 px-4 rounded;
 }
-
+.fadeIn{
+  animation : fadeIn .5s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 /* css for carousel  */
 .embla {
   /* max-width: 28rem; */

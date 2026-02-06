@@ -36,7 +36,8 @@ export default function Footer() {
                         </a>
                     </div>
                     <p class="text-gray-500 text-sm">official@devitbd.com</p>
-                    <p class="text-gray-500 text-sm">+44 7398 145148</p>
+                    <p class="text-gray-500 text-sm">+880 1991870343</p>
+                    <p class="text-gray-500 text-sm">Level 5, Blue Water Shopping, Sylhet, Bangladesh </p>
                 </div>
                 <div>
                     <Logo />
